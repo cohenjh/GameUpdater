@@ -1,11 +1,37 @@
 Added:
-> Nothing
+> Entities can now have active effects.
+> Players can now interact with the world around them with "F".
+> Added warp system for getting around the world alot easier. Also comes with brand new fading system.
+> Added gore when an entity is damaged.
+> Added new paralaxing backgrounds to some outdoor areas.
+> Added new console commands for development and testing.
+> Added internet multiplayer support.
+> Added local area network multiplayer support.
+> Added brand spanking new inventory.
+> You are now able to attacking things, and things are now able to attack you.
+> Added a new currency system to the game (Gold Coins).
+> Added a new shop and shopkeeper to the game.
+> Added new Ice enemy.
+> Players can now submit bugs they find using the new Bug Reporter 2k with space+B.
 
 Changed:
-> Nothing
+> Redesigned shop with new art style.
+> Redesigned player to suit new art style.
 
 Fixed:
-> Nothing
-
-Removed:
-> Nothing
+> Inventory and shop's transitions are now less glitchy.
+> Clients and server now agree about whether a player has been hit or not.
+> Players are now still able to attack if their weapon is clipping into another player.
+> Warp fading has been fixed.
+> The camera now lock to the correct position after warping.
+> Colliding players are now displayed correctly.
+> Warping now only fades the screen of the player who is warping.
+> Health and mana percentages in the inventory now display at the correct size.
+> Players are now correctly scaled after warping.
+> Players no longer gain superspeed by being above or below the level.
+> Scene colliders are now correctly placed to keep the players in the level.
+> Server residue is removed when a player rejoins a room.
+> No longer able to attack by swapping direction repeatedly.
+> Timed effects now wear off after time.
+> Item Editor entries nolonger self replicate.
+> Item scrolling in the inventory and shop now works correctly.
